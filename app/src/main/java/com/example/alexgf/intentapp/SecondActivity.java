@@ -22,8 +22,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     //método boton anterior
-    public void backActivity(View view){
-        Intent backActivity = new Intent(this, MainActivity.class);
-        startActivity(backActivity);
+    public void finishAct(View view){   //sin View view, no se puede utilizar el metodo en la activity
+        finish();   //termina la activity actual, funcionan como una pila(stack)
     }
 }

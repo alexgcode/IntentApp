@@ -25,7 +25,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="24dp"
-        android:onClick="backActivity"
+        android:onClick="finishAct"
         android:text="@string/button_secont_activity"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
