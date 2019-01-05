@@ -5,17 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second);
     }
 
-    //Metodo boton siguiente
-    public void nextActivity(View view){
-        Intent nextActivity = new Intent(this, SecondActivity.class);
-        startActivity(nextActivity);
+    //método boton anterior
+    public void backActivity(View view){
+        Intent backActivity = new Intent(this, MainActivity.class);
+        startActivity(backActivity);
     }
 }

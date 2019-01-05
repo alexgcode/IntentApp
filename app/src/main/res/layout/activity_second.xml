@@ -4,30 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
     <TextView
-        android:id="@+id/txt1_act1"
+        android:id="@+id/txt1_act2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="16dp"
-        android:text="@string/txt_first_activity"
+        android:text="@string/txt_second_activity"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn1_act1"
+        android:id="@+id/btn1_act2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginTop="24dp"
-        android:onClick="nextActivity"
-        android:text="@string/button_first_activity"
+        android:onClick="backActivity"
+        android:text="@string/button_secont_activity"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt1_act1" />
+        app:layout_constraintTop_toBottomOf="@+id/txt1_act2" />
 </android.support.constraint.ConstraintLayout>
