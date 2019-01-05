@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">IntentApp</string>
-    <string name="txt_first_activity">Primera Activity</string>
-    <string name="txt_second_activity">Segunda Actividad</string>
-    <string name="button_first_activity">Siguiente</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_second_activity">Nombre2</string>
+    <string name="button_first_activity">Enviar</string>
     <string name="button_secont_activity">Anterior</string>
 </resources>
